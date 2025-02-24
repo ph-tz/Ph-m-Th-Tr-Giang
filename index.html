@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        h1, h2, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        header {
+            background-color: #FF9999;
+            color:#D3D3D3 ;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+           
+        }
+
+        
+        nav {
+            background-color:pink;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #2e7d32;
+        }
+
+       
+        .banner {
+            background: url("https://images2.thanhnien.vn/528068263637045248/2024/8/6/da-lat-anh-doc-lap-118-17229592010492019978009.jpg") no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        
+        .slogan {
+            background-color: #f8f9fa;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .block_3 {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .block_3:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .block_3 h2 {
+            color: #ff3399;
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .block_3 p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+       
+        main {
+            padding: 40px 2rem;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #ff3399;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+       
+        table {
+            width: 100%;
+            margin: 3rem 0;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        table td {
+            padding: 20px;
+            vertical-align: top;
+        }
+
+        table .cell_img img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        table .cell_text {
+            max-width: 600px;
+        }
+
+        table .cell_text h2 {
+            color: #ff3399;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        table .cell_text p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        table .cell_text a {
+            color: #ff3399;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        table .cell_text a:hover {
+            color: #2e7d32;
+        }
+
+        
+        footer {
+            background-color: #FFCCFF;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        footer .row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer ul li {
+            margin: 10px 0;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer ul li a:hover {
+            color: #ff3399;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MỘT SỐ ĐIỂM DU LỊCH NỔI TIẾNG Ở ĐÀ LẠT</h1>
+        <nav>
+            <a href="#">Trang Chủ</a>
+            <a href="#ho-xuan-huong">Hồ Xuân Hương</a>
+            <a href="#cho-dem-da-lat">Chợ Đêm Đà Lạt</a>
+            <a href="#quang-truong-lam-vien">Quảng trường Lâm Viên</a>
+        </nav>
+        <div class="banner">
+            Khám phá vẻ đẹp bất tận của Đà Lạt!
+        </div>
+    </header>
+
+    <main>
+        <div class="slogan">
+            <div class="row">
+                <div class="block_3">
+                    <h2>Đà Lạt</h2>
+                    <p>Chốn bình yên giữa thiên nhiên diệu kỳ</p>
+                </div>
+                <div class="block_3">
+                    <h2>Đà Lạt</h2>
+                    <p>Mùa xuân vĩnh cửu giữa lòng cao nguyên</p>
+                </div>
+                <div class="block_3">
+                    <h2>Đà Lạt</h2>
+                    <p>Từ những đồi hoa đến những câu chuyện tình</p>
+                </div>
+            </div>
+        </div>
+
+        <h1>Đà Lạt - Thành phố ngàn hoa</h1>
+        <h3>Giới thiệu đôi nét về Thành phố Đà Lạt</h3>
+        <p>Đà Lạt là một thành phố trực thuộc tỉnh và tỉnh lị tỉnh Lâm Đồng, nằm trên cao nguyên Lâm Viên, ở độ cao 1.500 m so với mặt nước biển và diện tích tự nhiên: 393,29 km². Với nhiều cảnh quan đẹp, Đà Lạt là một trong những thành phố du lịch nổi tiếng nhất của Việt Nam. Trong thời Pháp thuộc, tên tiếng Latin Dat Aliis Laetitiam Aliis Temperiem có nghĩa là “Cho những người này niềm vui, cho những người khác sự mát mẻ”. Đà Lạt được mệnh danh là: thành phố hoa, thành phố tình yêu, thành phố mùa xuân, thành phố sương mù.</p>
+
+       
+        <table>
+            <tr id="ho-xuan-huong">
+                <td class="cell_text">
+                    <h2>Hồ Xuân Hương</h2>
+                    <p>Hồ Xuân Hương Đà Lạt với vẻ đẹp thơ mộng và bầu không khí thanh bình, đã trở thành điểm đến hấp dẫn không chỉ đối với du khách mà còn là nơi lưu giữ những kỷ niệm tuyệt vời của người dân địa phương.</p>
+                    <p><em><b>Địa chỉ:</b> Phường 1, thành phố Đà Lạt, tỉnh Lâm Đồng và được bao quanh bởi đường Trần Quốc Toản. </em></p>
+                    
+                </td>
+                <td class="cell_img">
+                    <img src="https://i2.ex-cdn.com/crystalbay.com/files/content/2024/05/15/ho-xuan-huong-da-lat-3-1108.jpg" alt="Hồ Xuân Hương">
+                </td>
+            </tr>
+            <tr id="cho-dem-da-lat">
+                <td class="cell_img">
+                    <img src="https://www.bambooairways.com/documents/20122/1165110/cho-dem-da-lat-1.jpg/0c22c572-e137-9fe5-a951-fb7da647da9f?t=1695026041939" alt="Chợ Đêm Đà Lạt">
+                </td>
+                <td class="cell_text">
+                    <h2>Chợ đêm Đà Lạt</h2>
+                    <p>Chợ đêm Đà Lạt hay còn được gọi với cái tên khác là Chợ Âm Phủ. Nơi đây không chỉ đơn thuần là điểm đến du lịch hấp dẫn mà còn là tấm gương phản chiếu cuộc sống và văn hóa độc đáo của người dân xứ ngàn hoa.</p>
+                    <p><em><b>Địa chỉ:</b> Trung tâm cung đường Nguyễn Thị Minh Khai, phường 1, thành phố Đà Lạt, tỉnh Lâm Đồng. </em></p>
+                </td>
+            </tr>
+            <tr id="quang-truong-lam-vien">
+                <td class="cell_text">
+                    <h2>Quảng trường Lâm Viên</h2>
+                    <p>Tại Quảng trường Lâm Viên bạn có thể tham gia rất nhiều trò chơi và các hoạt động thú vị như thả diều, trượt patin, chơi ô tô đụng hoặc lê la các quán nước, quán bánh tráng nướng gần đó để ngắm nhìn phong cảnh hữu tình của quảng trường hay Hồ Xuân Hương thơ mộng.</p>
+                    <p><em><b>Địa chỉ:</b> Đường Trần Quốc Toản, phường 1, thành phố Đà Lạt, tỉnh Lâm Đồng.. </em></p>
+                </td>
+                <td class="cell_img">
+                    <img src="https://reviewdalat.com/wp-content/uploads/2021/02/quang-truong-lam-vien-3jpg.jpg">
+                </td>
+            </tr>
+        </table>
+    </main>
+
+	<footer>
+        <div class="container">
+            <p>&copy; Đà Lạt - Thành phố ngàn hoa. Tất cả quyền được bảo lưu.</p>
+            <p> Thực hiện bởi: Phạm Thị Trà Giang - 12A1</p>
+        </div>
+           
+            	
